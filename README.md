@@ -3,8 +3,8 @@
 The Poetry Pronunciation Learning App is an interactive AI-powered tool that helps users practice and improve their pronunciation of poems. It uses real-time speech recognition, voice activity detection, and fuzzy word matching to provide instant feedback on spoken verses. The app guides learners through two phases — identifying the poem title and reciting it line by line — while tracking progress and accuracy.
 
 <p align="center">
-  <img src="images/1.png" alt="Sample Gesture" width="600"/>
-  <img src="images/2.png" alt="Sample Gesture" width="600"/>
+  <img src="images/1.png" alt="Sample Gesture" width="300"/>
+  <img src="images/2.png" alt="Sample Gesture" width="300"/>
 </p>
 
 ## ✨ Features
