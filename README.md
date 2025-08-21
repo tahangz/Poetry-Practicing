@@ -1,5 +1,6 @@
 #Poetry Pronunciation Learning App
-The Poetry Pronunciation Learning App is an interactive AI-powered tool that helps users practice and improve their pronunciation of French poems. It uses real-time speech recognition, voice activity detection, and fuzzy word matching to provide instant feedback on spoken verses. The app guides learners through two phases — identifying the poem title and reciting it line by line — while tracking progress and accuracy.
+
+The Poetry Pronunciation Learning App is an interactive AI-powered tool that helps users practice and improve their pronunciation of poems. It uses real-time speech recognition, voice activity detection, and fuzzy word matching to provide instant feedback on spoken verses. The app guides learners through two phases — identifying the poem title and reciting it line by line — while tracking progress and accuracy.
 
 ## ✨ Features
 - 🎙️ Real-time speech recognition powered by Whisper (via faster-whisper)
@@ -8,9 +9,8 @@ The Poetry Pronunciation Learning App is an interactive AI-powered tool that hel
 - 📊 Progress tracking: shows accuracy and recitation status
 - 🔊 Noise handling & VAD (Voice Activity Detection) for reliable recognition
 - 🔄 Multi-word processing: handle small chunks of spoken words naturally
-- 📂 Poem database stored in JSON, easy to extend with more poems
+- 📂 Poem database in JSON, easy to extend with more poems or different languages 
 - 🧪 Unit tests for audio, similarity, and transcriber logic
-- 🖥️ Optional Streamlit GUI support for a user-friendly interface
 
 ## 🛠️ Technologies Used
 
