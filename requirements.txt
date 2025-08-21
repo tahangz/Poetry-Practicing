@@ -1,0 +1,28 @@
+##########################################
+# Dependencies with pinned versions
+##########################################
+
+# --- Core speech-to-text ---
+faster-whisper          # Fast Whisper ASR wrapper
+ctranslate2==3.24.0     # Required backend for faster-whisper
+
+# --- Core ML & Deep Learning ---
+torch==2.3.1+cu118      # PyTorch (CUDA 11.8 build)
+torchaudio==2.3.1+cu118 # Audio utilities for PyTorch
+numpy==1.26.4           # Numerical computing
+
+# --- Audio I/O and processing ---
+sounddevice==0.4.7      # Real-time audio capture/playback
+soundfile==0.12.1       # Read/write WAV/FLAC/OGG files
+resampy==0.4.3          # High-quality audio resampling
+ffmpeg-python==0.2.0    # FFmpeg bindings for Python
+
+# --- Text similarity ---
+python-Levenshtein      # Fast Levenshtein distance
+
+# --- Voice Activity Detection (optional) ---
+webrtcvad-wheels==2.0.14  # Prebuilt wheels (esp. useful on Windows)
+
+# --- Testing ---
+pytest                  # Testing framework
+pytest-asyncio          # Async test support
